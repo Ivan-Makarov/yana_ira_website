@@ -9,112 +9,131 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#about">О нас</a>
-            <a href="#services">Услуги</a>
-            <a href="#portfolio">Портфолио</a>
-            <a href="#dontwork">С кем мы не работаем</a>
-            <a href="#contacts">Контакты</a>
+        <nav class="nav">
+            <div class="nav--wrapper">
+                <a class="nav--item" href="#about">О нас</a>
+                <a class="nav--item" href="#services">Услуги</a>
+                <a class="nav--item" href="#portfolio">Портфолио</a>
+                <a class="nav--item" href="#dontwork">С кем мы не работаем</a>
+                <a class="nav--item" href="#contacts">Контакты</a>
+            </div>
         </nav>
     </header>
 
-    <section id="about" class="about">
-        <h2>О нас</h2>
-        <div class="about--wrapper">
-            <article id="yana" class="about--person">
-                <h3 class="person--name">Яна</h3>
-                <p class="person--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto illo explicabo ipsum officia magni corporis incidunt quas, aspernatur exercitationem, eaque cupiditate consectetur optio expedita eius adipisci rerum, dignissimos placeat modi.</p>
-            </article>
-            <article id="ira" class="about--person">
-                <h3 class="person--name">Ира</h3>
-                <p class="person--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt repudiandae laboriosam laborum iure veniam porro saepe obcaecati aut, accusantium reprehenderit? Enim cupiditate ad, expedita corporis quas maiores distinctio harum est.</p>
-            </article>
-        </div>
-    </section>
+    <div class="content-wrapper">
+        <section id="about" class="section about">
+            <h2 class="section-heading">О нас</h2>
+            <div class="about--wrapper">
+                <article id="yana" class="about--person">
+                    <h3 class="about--person-name">Яна</h3>
+                    <p class="about--person-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto illo explicabo ipsum officia magni corporis incidunt quas, aspernatur exercitationem, eaque cupiditate consectetur optio expedita eius adipisci rerum, dignissimos placeat modi.</p>
+                </article>
+                <article id="ira" class="about--person">
+                    <h3 class="about--person-name">Ира</h3>
+                    <p class="about--person-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt repudiandae laboriosam laborum iure veniam porro saepe obcaecati aut, accusantium reprehenderit? Enim cupiditate ad, expedita corporis quas maiores distinctio harum est.</p>
+                </article>
+            </div>
+        </section>
 
-    <section id="services" class="services">
-        <h2>Услуги</h2>
-        <ul class="services--list">
-            <li class="services--item">
-                <h3></h3>
-                <p></p>
-            </li>
-            <li class="services--item">
-                <h3></h3>
-                <p></p>
-            </li>
-            <li class="services--item">
-                <h3></h3>
-                <p></p>
-            </li>
-            <li class="services--item">
-                <h3></h3>
-                <p></p>
-            </li>
-            <li class="services--item">
-                <h3></h3>
-                <p></p>
-            </li>
-            <li class="services--item">
-                <h3></h3>
-                <p></p>
-            </li>
-            <li class="services--item">
-                <h3></h3>
-                <p></p>
-            </li>
-            <li class="services--item">
-                <h3></h3>
-                <p></p>
-            </li>
-            <li class="services--item">
-                <h3></h3>
-                <p></p>
-            </li>
-        </ul>
-    </section>
+        <section id="services" class="section services">
+            <h2 class="section-heading">Услуги</h2>
+            <ul class="services--list">
+                <li class="services--item">
+                    <h3 class="services--item-heading">PR-стратегии</h3>
+                    <p class="services--item-text"></p>
+                </li>
+                <li class="services--item">
+                    <h3 class="services--item-heading">Определение ЦА</h3>
+                    <p class="services--item-text"></p>
+                </li>
+                <li class="services--item">
+                    <h3 class="services--item-heading">Рекомендации по каналам продвижения</h3>
+                    <p class="services--item-text"></p>
+                </li>
+                <li class="services--item">
+                    <h3 class="services--item-heading">Рекомендации и подбор лидеров мнений</h3>
+                    <p class="services--item-text"></p>
+                </li>
+                <li class="services--item">
+                    <h3 class="services--item-heading">Рекомендации по контенту, дизайну и UX сайта и соцсетей</h3>
+                    <p class="services--item-text"></p>
+                </li>
+                <li class="services--item">
+                    <h3 class="services--item-heading">Определение ключевых конкурентов</h3>
+                    <p class="services--item-text"></p>
+                </li>
+                <li class="services--item">
+                    <h3 class="services--item-heading">Подбор или рекомендации специалистов для работы</h3>
+                    <p class="services--item-text"></p>
+                </li>
+                <li class="services--item">
+                    <h3 class="services--item-heading">Сопровождение проектов (заочные консультации)</h>
+                    <p class="services--item-text"></p>
+                </li>
+                <!-- <li class="services--item">
+                    <h3 class="services--item-heading"></h3>
+                    <p></p>
+                </li> -->
+            </ul>
+        </section>
 
-    <section id="portfolio" class="portfolio">
-        <h2>Портфолио</h2>
-        <ul class="portfolio--list">
-            <li class="portfolio--item">Проект</li>
-            <li class="portfolio--item">Проект</li>
-            <li class="portfolio--item">Проект</li>
-            <li class="portfolio--item">Проект</li>
-            <li class="portfolio--item">Проект</li>
-            <li class="portfolio--item">Проект</li>
-            <li class="portfolio--item">Проект</li>
-            <li class="portfolio--item">Проект</li>
-            <li class="portfolio--item">Проект</li>
-            <li class="portfolio--item">Проект</li>
-        </ul>
-    </section>
+        <section id="portfolio" class="section portfolio">
+            <h2 class="section-heading">Портфолио</h2>
+            <ul class="portfolio--list">
+                <li class="portfolio--item">Проект</li>
+                <li class="portfolio--item">Проект</li>
+                <li class="portfolio--item">Проект</li>
+                <li class="portfolio--item">Проект</li>
+                <li class="portfolio--item">Проект</li>
+                <li class="portfolio--item">Проект</li>
+                <li class="portfolio--item">Проект</li>
+                <li class="portfolio--item">Проект</li>
+                <li class="portfolio--item">Проект</li>
+                <li class="portfolio--item">Проект</li>
+            </ul>
+        </section>
 
-    <section id="dontwork" class="dontwork">
-        <h2>Мы не работаем</h2>
-        <ul>
-            <li>С мудаками</li>
-            <li>С мудаками</li>
-            <li>С мудаками</li>
-            <li>С мудаками</li>
-            <li>С мудаками</li>
-        </ul>
-    </section>
+        <section id="dontwork" class="section dontwork section__highlight">
+            <h3 class="section-heading">Вам не стоит с нами работать, если</h3>
+            <ul class="dontwork--list">
+                <li class="dontwork--item">вы уверены, что мы за вас решим все ваши проблемы,</li>
+                <li class="dontwork--item">ждете волшебную палочку, взмах которой позволит вам не трудиться,</li>
+                <li class="dontwork--item">рассчитываете на мгновенный результат,</li>
+                <li class="dontwork--item">или считаете, что все можете делать сами и занаете больше, чем мы</li>
+            </ul>
+            <h3 class="section-heading">Мы точно сработаемся, если</h3>
+            <ul class="dontwork--list">
+                <li class="dontwork--item">вы умеете слушать, а не спорить со специалистом,</li>
+                <li class="dontwork--item">понимаете, что результат &mdash; это вопрос времени и вложеннных сил,</li>
+                <li class="dontwork--item">готовы много работать сами или делегировать работу профессионалам,</li>
+                <li class="dontwork--item">и у вас долгосрочные цели</li>
+            </ul>
+        </section>
 
-    <section id="contacts" class="contacts">
-        <h2>Контакты</h2>
-        <div>
-            <a href="tel:+79629726913">+7 962 973-69-13</a>
-            <a href="mailto:yana-media@bk.ru">yana-media@bk.ru</a>
-        </div>
-        <form action="">
-            <input name="" type="text">
-            <input name="" type="text">
-            <input name="" type="text">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <button type="submit"></button>
-        </form>
-    </section>
+        <section id="contacts" class="section contacts">
+            <h2 class="section-heading">Контакты</h2>
+            <div class="contacts--wrapper">
+                <div class="contacts--details">
+                    <a class="contacts--info" href="tel:+79629726913">+7 962 973-69-13</a>
+                    <a class="contacts--info" href="mailto:yana-media@bk.ru">yana-media@bk.ru</a>
+                </div>
+                <form class="contacts--form" action="">
+                    <label for="name" class="contacts--form-label">Имя</label>
+                    <input class="contacts--form-input contacts--form-field" name="name" type="text" required placeholder="Иван Петров">
+
+                    <label for="email" class="contacts--form-label">Почта</label>
+                    <input class="contacts--form-input contacts--form-field" name="email" type="text" required placeholder="mymail@mail.com">
+
+                    <label for="phone" class="contacts--form-label" >Телефон</label>
+                    <input class="contacts--form-input contacts--form-field" name="phone" type="tel" placeholder="+7 999 123 45 67">
+
+                    <label for="message" class="contacts--form-label">Сообщение</label>
+                    <textarea class="contacts--form-message contacts--form-field" name="message" id="" cols="30" rows="10" required placeholder="Хочу с вами работать..."></textarea>
+                    <button class="contacts--form-btn__active" type="submit">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </div>
     <footer></footer>
 </body>
 </html>
